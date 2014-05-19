@@ -1,0 +1,58 @@
+<?testxmlDB?>
+<data>
+
+<weaponsDB>
+   <weapon id="1">
+    <name>Walter</name>
+    <filename>usp_test</filename>
+    <type>0</type>	
+    <damage>15</damage>
+    <attack_rate>0.3</attack_rate>
+    <inaccuracy>0.045</inaccuracy>
+    <clipsize>12</clipsize>
+    <maxammo>120</maxammo>
+  </weapon>
+  <weapon id="2">
+    <name>LR 300</name>
+    <filename>m4_test</filename>
+    <type>1</type>	
+    <damage>10.1</damage>
+    <attack_rate>0.097</attack_rate>
+    <inaccuracy>0.025</inaccuracy>
+    <clipsize>30</clipsize>
+    <maxammo>150</maxammo>
+  </weapon>
+  <weapon id="3">
+    <name>Glock 18</name>
+    <filename>glock18_test</filename>
+    <type>0</type>	
+    <damage>15</damage>
+    <attack_rate>0.093</attack_rate>
+    <inaccuracy>0.053</inaccuracy>
+    <clipsize>15</clipsize>
+    <maxammo>150</maxammo>
+  </weapon>
+  <weapon id="4">
+    <name>AK 74</name>
+    <filename>ak47_test</filename>
+    <type>1</type>	
+    <damage>15</damage>
+    <attack_rate>0.11</attack_rate>
+    <inaccuracy>0.035</inaccuracy>
+    <clipsize>30</clipsize>
+    <maxammo>120</maxammo>
+  </weapon>
+</weaponsDB>
+
+<gameconfig>
+	<pl_runspeed> 3.5 </pl_runspeed>
+	<mouseXSpeed> 3.0 </mouseXSpeed>
+	<mouseYSpeed> 3.0 </mouseYSpeed>
+	<pl_walkspeed> 1.0 </pl_walkspeed>
+	<pl_startweapon> 2 </pl_startweapon>
+	<pl_wslots> 3 </pl_wslots>
+	<pl_creditsonstart> 700 </pl_creditsonstart>
+</gameconfig>
+
+</data>
+
